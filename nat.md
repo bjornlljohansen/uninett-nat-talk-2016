@@ -11,17 +11,22 @@ class: middle, center
 - Uses
 
 ---
+
 # Components
 - Routers
 - Plain(Pizzabox) server
 - OpenBSD
 - CARP/HSRP
 
+---
+
 # Wiring
 - NAT-box at each core router
 -- Kept in sync over a dedicated VLAN for pfSync
 - Policy-based routing on edge routers to steer traffic
 - Rules on NAT boxes
+
+---
 
 #Thank you!
 - Questions?
