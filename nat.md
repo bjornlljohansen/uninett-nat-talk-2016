@@ -22,7 +22,7 @@ class: middle, center
 
 # Wiring
 - NAT-box at each core router
--- Kept in sync over a dedicated VLAN for pfSync
+    - Kept in sync over a dedicated VLAN for pfSync
 - Policy-based routing on edge routers to steer traffic
 - Rules on NAT boxes
 
